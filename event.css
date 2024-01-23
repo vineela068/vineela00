@@ -1,0 +1,43 @@
+body {
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7f_pagalYQrWpm6NHDMfn-LB5-VWaJ2LQ-Q&usqp=CAU");
+    background-color:blue;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color:white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
